@@ -30,3 +30,17 @@ nano jenkintask.sh
 git add .
 git commit -m "Testing2"
 git push
+clear
+nano jenkintask.sh
+git add .
+git commit -m "Testing3"
+git push
+git config --global user.name vishalinirajika-v
+git config --global user.name "vishalinirajika-v"
+git config --global user.email "vishalinirajika@gmail.com" 
+nano jenkintask.sh
+git config --global --list
+git add .
+git commit -m "Testing4"
+git push
+telnet smtp.gmail.com 587
